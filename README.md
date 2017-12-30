@@ -1,5 +1,3 @@
-# music_box_recommender
-
 
 # Data Processing Steps
 Raw data downloading: load_data.ipynb
