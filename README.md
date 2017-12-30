@@ -30,7 +30,7 @@ from pyspark.ml.recommendation import ALS
 
 5 Calculate the most popular songs: songs that have been played by most users.
 
-6 Use to calculate plaround(play_time / song_length) y times for one play record.
+6 Use round(play_time / song_length) to calculate pla y times for one play record.
 
 7 Use count(play_times) group by user_id, song_id, we can get rating information.
 
