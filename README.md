@@ -1,14 +1,22 @@
 
 # Data Processing Steps
-Raw data downloading: load_data.ipynb
+Raw data downloading: download_files.ipynb
+
 Unzip and combine all log files to one: unpack_and_clean_files.sh
+
+Extract necessary columns from raw data: Data_Processing.ipynb
+
 Create recommendation system model: recommender_system.ipynb
 
 # Create recommendation system
 •	Use spark-2.2.1-bin-hadoop2.7
+
 from pyspark.sql import SparkSession
+
 from pyspark.sql.functions import col, when, round, sum, avg
+
 from pyspark.ml.evaluation import RegressionEvaluator
+
 from pyspark.ml.recommendation import ALS
 
 # Details 
